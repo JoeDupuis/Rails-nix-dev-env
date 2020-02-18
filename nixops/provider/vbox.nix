@@ -11,5 +11,5 @@ let
   };
 
 in {
-  rails-db = libvirt;
+  railsapp-db = libvirt;
 }

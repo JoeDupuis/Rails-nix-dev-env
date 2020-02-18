@@ -7,7 +7,7 @@
 } :
 {
 
-  rails-db = {config, pkgs, lib, ...} : {
+  railsapp-db = {config, pkgs, lib, ...} : {
     environment.systemPackages = with pkgs; [
       htop
       tmux
